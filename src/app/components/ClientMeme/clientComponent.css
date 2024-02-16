@@ -1,0 +1,95 @@
+.createMemeContainer {
+  width: 100%;
+  height: 100vh;
+  /* background-color: rgb(177, 199, 199); */
+  background-image: url("https://image.slidesdocs.com/responsive-images/background/world-smile-day-smiley-emoji-powerpoint-background_010e67dd9d__960_540.jpg");
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meme-contant {
+  background-color: rgba(7, 156, 69, 0.842);
+  box-shadow: 0 0 20px white;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 45%;
+  height: 70%;
+}
+
+.meme-img {
+  width: 100%;
+  height: 70%;
+}
+
+.meme-inputField {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.inputField {
+  width: 250px;
+  height: 38px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border: 2px solid gray;
+  outline: none;
+}
+
+.inputField:focus {
+  border: 2px solid yellow;
+  box-shadow: 0 0 20px red;
+}
+
+.memeBtn-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 10%;
+}
+
+.userMemeImg-div {
+  width: 50%;
+  height: 85%;
+  box-shadow: 0 0 40px white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.userMemeImg {
+  width: 100%;
+  height: 100%;
+}
+
+.memeBtn {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #00d775, #00bd68);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+  line-height: 35px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  z-index: 9;
+  border: 0;
+}
+.memeBtn:hover {
+  background: #00bd68;
+}

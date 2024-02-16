@@ -1,0 +1,81 @@
+/* .createMemeContainer {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(177, 199, 199);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meme-contant {
+  background-color: transparent;
+  box-shadow: 0 0 20px white;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 30%;
+  height: 50%;
+}
+
+.meme-img {
+  width: 100%;
+  height: 70%;
+}
+
+.meme-inputField {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.inputField {
+  width: 180px;
+  height: 28px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border: 2px solid gray;
+  outline: none;
+}
+
+.inputField:focus {
+  border: 2px solid black;
+  box-shadow: 0 0 10px white;
+}
+
+.memeBtn-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 10%;
+}
+
+.memeBtn {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #00d775, #00bd68);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter, -apple-system, system-ui, Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+  line-height: 35px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  z-index: 9;
+  border: 0;
+}
+.memeBtn:hover {
+  background: #00bd68;
+} */
