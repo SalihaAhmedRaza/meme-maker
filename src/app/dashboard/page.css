@@ -1,17 +1,11 @@
 .dashbord-container {
   width: 100%;
-  background: #a8dbfa;
+  background: none;
 }
 
 /* nav start */
 
-.navbar {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 10rem;
-}
+
 
 .menu {
   background-color: white;
@@ -126,8 +120,8 @@
   align-items: center;
   justify-content: center;
   margin: 40px;
-  transition: all 0.5s;
-  background: #010615;
+  /* transition: all 0.5s; */
+  background: black;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 
@@ -146,41 +140,7 @@
     }
   }
 
-  &::before {
-    content: "";
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
-    background: white;
-    z-index: -1;
-
-    background: linear-gradient(
-      45deg,
-      rgba(255, 5, 172, 1) 0%,
-      rgba(255, 5, 172, 1) 18%,
-      rgba(0, 255, 255, 1) 100%
-    ); /* w3c */
-  }
-
-  &::after {
-    content: "";
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
-    background: white;
-    z-index: -2;
-    filter: blur(40px);
-    background: linear-gradient(
-      45deg,
-      rgba(255, 5, 172, 1) 0%,
-      rgba(255, 5, 172, 1) 18%,
-      rgba(0, 255, 255, 1) 100%
-    ); /* w3c */
-  }
+ 
 
   .card-img {
     position: absolute;
